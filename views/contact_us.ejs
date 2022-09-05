@@ -5,10 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact us</title>
+    <link href="contact.css" rel="stylesheet">
     <%- include('partials/header') %>
 </head>
 <body>
     <%- include('partials/navbar') %>
+
+    <style>
+        div.head.pic{
+            margin-left: auto;
+            border: 2px solid red;
+            border-radius: 1.7rem;
+        }
+        div.left{
+            align-items: right;
+            justify-content:right;
+            margin: auto;
+            border: 1px solid green;
+            border-radius: 1.7rem;
+            width: auto;
+            height: auto;
+            background-color: bisque;
+            text-align: left;
+            align-content: flex;
+        }
+    </style>
+
+    <div class="info">
+        <div class="lop">
+            <h1>Contact us on: 0012-3456</h1>
+            <h2>Email: thecave@gmail.com</h2>
+            <h3>Fax: 2352-3225</h3>
+        </div>
+    </div>
+    <div class="head">
+        <div class="pic">
+            <img src="./images/swift.jpg"><h>Cars is our favorite subject.
+            Don't be shy to contact us or to come in our showroom at the Ambrose street,Rose-Hill.</h>
+        </div>
+    </div>
+
+    <div class="left">
+        <img src="./images/kia-seltos.jpg">
+        <h1>New models are here!!
+            Feel free to get in touch with us😉.
+        </h1>
+    </div>
     
 </body>
 <%- include('partials/footer') %>

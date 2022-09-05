@@ -1,0 +1,25 @@
+.header_title{
+    position: absolute;
+    left: 50%;
+    top: 26%;
+    transform: translate(-50%, 50%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    width: 100%;
+    color: darksalmon;
+    font-size: 22px;
+    text-align: center;
+}
+.header_subtitle{
+    position: absolute;
+    left: 50%;
+    top: 22.4%;
+    transform: translate(-50%, -50%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    width: 100%;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    font-style: italic;
+}
