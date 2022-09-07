@@ -12,22 +12,26 @@
     <%- include('partials/navbar') %>
 
     <style>
-        div.head.pic{
-            margin-left: auto;
-            border: 2px solid red;
-            border-radius: 1.7rem;
-        }
         div.left{
             align-items: right;
             justify-content:right;
             margin: auto;
-            border: 1px solid green;
+            border: 1px solid rgb(12, 230, 12);
             border-radius: 1.7rem;
             width: auto;
             height: auto;
             background-color: bisque;
-            text-align: left;
+            text-align: center;
             align-content: flex;
+        }
+        div.lop{
+            border: 1px solid goldenrod;
+            border-radius: 1.9rem;
+            background-color:seashell ;
+        }
+        div.info{
+            text-align: center;
+            text-shadow: 1.5rem solid black;
         }
     </style>
 
@@ -46,12 +50,13 @@
     </div>
 
     <div class="left">
-        <img src="./images/kia-seltos.jpg">
+        <img src="./images/kia-seltos.jpg" class="card-img-top" style="width:20rem;">
+        <img src="./images/Cadillac-Escalade-brabus.jpg" class="card-img-top" style="width:20rem;">
+        <img src="./images/audi-r8.jpg" class="card-img-top" style="width:20rem;">
         <h1>New models are here!!
             Feel free to get in touch with us😉.
         </h1>
     </div>
-    
 </body>
 <%- include('partials/footer') %>
 </html>
