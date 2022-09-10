@@ -7,7 +7,7 @@
     font-weight: 1000;
     width: 100%;
     color: darksalmon;
-    font-size: 22px;
+    font-size: 29px;
     text-align: center;
 }
 .header_subtitle{
@@ -19,7 +19,7 @@
     font-weight: 400;
     width: 100%;
     color: black;
-    font-size: 16px;
+    font-size: 30px;
     text-align: center;
     font-style: italic;
 }
@@ -36,7 +36,8 @@ body{
     background-position: top;
     background-blend-mode: soft-light;
     background-color: #ffffff59;
-    
+    background-attachment: fixed;
+
 }
 .image-flex{
     position: absolute;
