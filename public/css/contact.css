@@ -1,0 +1,30 @@
+div.grid{
+    display: grid;
+    border: 1px solid red;
+    border-radius: 1.2rem;
+}
+div.head.pic{
+    margin-left: auto;
+    border: 2px solid red;
+    border-radius: 1.7rem;
+}
+div.left{
+    align-items: right;
+    justify-content:right;
+    margin: auto;
+    border: 1px solid green;
+    border-radius: 1.7rem;
+    width: auto;
+    height: auto;
+    background-color: bisque;
+    text-align: left;
+    align-content: flex;
+}
+div.info{
+    border: 1px solid black;
+    border-radius: 1.2rem;
+}
+div.lop{
+    background-color: blanchedalmond;
+    text-align: center;
+}

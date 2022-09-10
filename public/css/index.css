@@ -23,3 +23,25 @@
     text-align: center;
     font-style: italic;
 }
+body{
+    margin: 0px;
+    overflow: hidden;
+}
+.header{
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    background-image: url("../images/shelby.jpg");
+    background-size: cover;
+    background-position: top;
+    background-blend-mode: soft-light;
+    background-color: #ffffff59;
+    
+}
+.image-flex{
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
