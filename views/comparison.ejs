@@ -5,120 +5,213 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comparison</title>
-    <link href="comparison.css" rel="stylesheet">
+    <link href="css/comparison.css" rel="stylesheet">
     <%- include('partials/header') %>
 </head>
 <body>
-    <%- include('partials/navbar') %>
-    <style>
-      body{
-        background-color: lightcyan;
-      }
-    </style>
-
-    <span class="bmw"> 
-      <a href="#" target="">
-       <img src="./images/bmw530i.jpg" class="card-img-top" style="width:20rem">
-      </a>
-     </span>
-   <span>
-    <a href="#" target="">
-      <img src="./images/renault_rs_megane.jpg" class="card-img-top" style="width:20rem">
-    </a>
-   </span>
-   <span>
-    <a href="#" target="">
-      <img src="./images/swift.jpg" class="card-img-top" style="width:20rem;">
-    </a>
-   </span>
-   <span>
-    <a href="#" target="">
-      <img src="./images/kia-stonic-2022.jpg" class="card-img-top" style="width:20rem;">
-    </a>
-   </span>
-   <span>
-    <a href="#" target="">
-      <img src="./images/mercedes_benz_c_class.jpg" class="card-img-top" style="width:20rem;">
-    </a>
-   </span>
-   <span>
-    <a href="#" target="">
-      <img src="./images/mazda-rx-7.jpg" class="card-img-top" style="width:20rem;">
-    </a>
-   </span>
-   <span>
-    <a href="#" target="">
-      <img src="./images/mg.jpg" class="card-img-top" style="width:20rem;">
-    </a>
-   </span>
-   <span>
-    <a href="#" target="">
-      <img src="./images/mustang.jpg" class="card-img-top" style="width: 20rem">
-    </a>
-   </span>
-   <span>
-    <a href="#" target="">
-      <img src="./images/trackhawk.jpg" class="card-img-top" style="width:20rem;">
-    </a>
-   </span>
-   <span>
-    <a href="#" target="">
-      <img src="./images/audi-a7.jpg" class="card-img-top" style="width:20rem;">
-    </a>
-   </span>
-   <span>
-    <a href="#" target="">
-      <img src="./images/suzuki.jpg" class="card-img-top" style="width:20rem;">
-    </a>
-   </span>
-   <span>
-    <a href="#" target="">
-      <img src="./images/range-rover-evoque.jpg" class="card-img-top" style="width:20rem;">
-    </a>
-   </span>
-   <span>
-    <a href="#" target="">
-      <img src="./images/RAM.jpg" class="card-img-top" style="width: 20rem;">
-    </a>
-   </span>
-   <span>
-    <a href="#" target="">
-      <img src="./images/nissan-navara.jpg" class="card-img-top" style="width:20rem;">
-    </a>
-   </span>
-   <span>
-    <a href="#" target="">
-      <img src="./images/cadillac.jpg" class="card-img-top" style="width:20rem;">
-    </a>
-   </span>
-   <span>
-    <a href="#" target="">
-      <img src="./images/kia-telluride.jpg" class="card-img-top" style="width:20rem;">
-    </a>
-   </span>
-   <span>
-    <a href="#" target="">
-      <img src="./images/evo-x.jpg" class="card-img-top" style="width:20rem;">
-    </a>
-   </span>
-   <span>
-    <a href="#" target="">
-      <img src="./images/nissan-370z.jpg" class="card-img=top" style="width:20rem;">
-    </a>
-   </span>
-   <span>
-    <a href="#" target="">
-      <img src="./images/alfa-guilia.jpg" class="card-img-top" style="width:20rem;">
-    </a>
-   </span>
-   <span>
-    <a href="#" target="">
-      <img src="./images/jaguar-f-type.jpg" class="card-img-top" style="width:20rem;">
-    </a>
-   </span>
-
-   
-    
+  <%- include('partials/navbar') %>
+  <div class="grid">
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="./images/bmw530i.jpg" alt="530i" style="width:20rem;">
+        </div>
+        <div class="flip-card-back">
+          <h1>BMW 530i</h1>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="./images/renault_rs_megane.jpg" alt="rs_megane" style="width:20rem;">
+        </div>
+        <div class="flip-card-back">
+          <h1>Renault Megane</h1>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="./images/swift.jpg" alt="swift" style="width:20rem;">
+        </div>
+        <div class="flip-card-back">
+          <h1>suzuki swift</h1>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="./images/kia-stonic-2022.jpg" alt="stonic" style="width:20rem;">
+        </div>
+        <div class="flip-card-back">
+          <h1>stonic</h1>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="./images/mercedes_benz_c_class.jpg" alt="classC" style="width:20rem;">
+        </div>
+        <div class="flip-card-back">
+          <h1>Class C</h1>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="./images/mazda-rx-7.jpg" alt="rx7" style="width:20rem;">
+        </div>
+        <div class="flip-card-back">
+          <h1>rx7</h1>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="./images/mg.jpg" alt="mg" style="width:20rem;">
+        </div>
+        <div class="flip-card-back">
+          <h1>MG</h1>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="./images/mustang.jpg" alt="Ford Mustang" style="width:20rem;">
+        </div>
+        <div class="flip-card-back">
+          <h1>Mustang</h1>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="./images/trackhawk.jpg" alt="trackhawk" style="width:20rem;">
+        </div>
+        <div class="flip-card-back">
+          <h1>Jeep</h1>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="./images/audi-a7.jpg" alt="audi-a7" style="width:20rem;">
+        </div>
+        <div class="flip-card-back">
+          <h1>A7</h1>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="./images/suzuki.jpg" alt="Swift22" style="width:20rem;">
+        </div>
+        <div class="flip-card-back">
+          <h1>Swift 2022</h1>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="./images/range-rover-evoque.jpg" alt="evoque" style="width:20rem;">
+        </div>
+        <div class="flip-card-back">
+          <h1>Range Rover</h1>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="./images/RAM.jpg" alt="RAM" style="width:20rem;">
+        </div>
+        <div class="flip-card-back">
+          <h1>RAM</h1>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="./images/nissan-navara.jpg" alt="navara" style="width:20rem;">
+        </div>
+        <div class="flip-card-back">
+          <h1>Nissan</h1>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="./images/cadillac.jpg" alt="cadillac" style="width:20rem;">
+        </div>
+        <div class="flip-card-back">
+          <h1>cadillac</h1>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="./images/kia-telluride.jpg" alt="kia" style="width:20rem;">
+        </div>
+        <div class="flip-card-back">
+          <h1>Kia Telluride</h1>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="./images/evo-x.jpg" alt="Evo-x" style="width:20rem;">
+        </div>
+        <div class="flip-card-back">
+          <h1>EVO</h1>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="./images/nissan-370z.jpg" alt="370z" style="width:20rem;">
+        </div>
+        <div class="flip-card-back">
+          <h1>Nissan370z</h1>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="./images/alfa-guilia.jpg" alt="guilia" style="width:20rem;">
+        </div>
+        <div class="flip-card-back">
+          <h1>Alfa-Romeo</h1>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="./images/jaguar-f-type.jpg" alt="f-type" style="width:20rem;">
+        </div>
+        <div class="flip-card-back">
+          <h1>F-Type</h1>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 <%- include('partials/footer') %>
 </html>

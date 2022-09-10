@@ -12,29 +12,42 @@
     <%- include('partials/navbar') %>
 
     <style>
+        div.grid{
+            display: grid;
+            border: 1px solid red;
+            border-radius: 1.2rem;
+        }
+        div.head.pic{
+            margin-left: auto;
+            border: 2px solid red;
+            border-radius: 1.7rem;
+        }
         div.left{
             align-items: right;
             justify-content:right;
             margin: auto;
-            border: 1px solid rgb(12, 230, 12);
+            border: 1px solid green;
             border-radius: 1.7rem;
             width: auto;
             height: auto;
             background-color: bisque;
-            text-align: center;
+            text-align: left;
             align-content: flex;
         }
-        div.lop{
-            border: 1px solid goldenrod;
-            border-radius: 1.9rem;
-            background-color:seashell ;
-        }
         div.info{
+            border: 1px solid black;
+            border-radius: 1.2rem;
+        }
+        div.lop{
+            background-color: blanchedalmond;
             text-align: center;
-            text-shadow: 1.5rem solid black;
+        }
+        span.dot{
+            border: 2px solid whitesmoke;
+            border-radius: 1.2rem;
         }
     </style>
-
+<div class="grid">
     <div class="info">
         <div class="lop">
             <h1>Contact us on: 0012-3456</h1>
@@ -43,20 +56,20 @@
         </div>
     </div>
     <div class="head">
-        <div class="pic">
-            <img src="./images/swift.jpg"><h>Cars is our favorite subject.
-            Don't be shy to contact us or to come in our showroom at the Ambrose street,Rose-Hill.</h>
-        </div>
+        <span class="dot">
+            <img src="./images/swift.jpg">
+        </span>
+        <h1>
+            Cars is our favorite subject. Don't be shy to contact us or to come in our showroom at the Ambrose street,Rose-Hill.</h>
+        </h1>
     </div>
 
     <div class="left">
-        <img src="./images/kia-seltos.jpg" class="card-img-top" style="width:20rem;">
-        <img src="./images/Cadillac-Escalade-brabus.jpg" class="card-img-top" style="width:20rem;">
-        <img src="./images/audi-r8.jpg" class="card-img-top" style="width:20rem;">
         <h1>New models are here!!
             Feel free to get in touch with us😉.
         </h1>
     </div>
+</div>
 </body>
 <%- include('partials/footer') %>
 </html>
