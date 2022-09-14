@@ -32,7 +32,7 @@ body{
     width: 100vw;
     margin: 0px;
     background-image: url("../images/shelby.jpg");
-    background-size: cover;
+    background-size: contain;
     background-position: top;
     background-blend-mode: soft-light;
     background-color: #ffffff59;
@@ -46,3 +46,4 @@ body{
     transform: translate(-50%,-50%);
     display: flex;
 }
+
