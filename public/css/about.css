@@ -1,0 +1,10 @@
+.flex_image_box{
+    position: absolute;
+    left: 50%;
+    top: 85;
+    transform: translate(-50%,-50%);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    filter: drop-shadow(5px 5px 6px rgba(50, 50, 0, 0.5));
+}
