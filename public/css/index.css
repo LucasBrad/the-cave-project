@@ -33,12 +33,16 @@ body{
 }
 .front{
     /* height */
-    position: relative;
+    position: absolute;
     min-width: 400px;
+    
+
 }
 .front>img{
     height: 50vh;
     width: 75vh;
+    background-position: center;
+    background-size: contain;
 }
 .left{
     display: block;
