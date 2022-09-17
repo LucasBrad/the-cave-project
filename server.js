@@ -4,7 +4,7 @@ const {default: knex} = require('knex');
 const {reset} = require('nodemon');
 const app = express()
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 // app.use(bp.urlencoded({ extended: false}))
 // app.use(bp.json())

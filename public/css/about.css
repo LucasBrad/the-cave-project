@@ -6,5 +6,5 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    filter: drop-shadow(5px 5px 6px rgba(50, 50, 0, 0.5));
+    filter: drop-shadow(5px 5px 6px rgba(199, 199, 48, 0.5));
 }

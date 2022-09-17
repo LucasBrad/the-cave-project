@@ -6,7 +6,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 1000;
     width: 100%;
-    color: darksalmon;
+    color: rgb(20, 222, 101);
     font-size: 29px;
     text-align: center;
 }
@@ -40,12 +40,10 @@ body{
     height: 50vh;
     width: 75vh;
 }
-.yaris{
-    position:relative;
-    min-width: 400px;
-}
-.yaris>img{
-    position: relative;
-    height: 50vh;
+.left{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 75vh;
+
 }
