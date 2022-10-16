@@ -1,4 +1,11 @@
 div.info{
     border: 1px solid black;
-    border-radius: 1.2px;
+    border-radius: 1.1px;
+}
+h.name{
+    font-size: 22px;
+}
+h.license{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

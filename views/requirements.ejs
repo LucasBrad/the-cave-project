@@ -4,36 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/requirements.css" rel="stylesheet">
     <title>Requirements</title>
     <%- include('partials/header') %>
 </head>
 <body>
     <%- include('partials/navbar') %>
     <style>
-        div.require{
+        /* div.require{
             margin-top: 18px;
-            border: 2px solid black;
-            border-radius: 1.7rem;
-
+            border:1.8px solid black;
+            border-radius: 1.2rem;
+        } */
+        div.info{
+            padding: 2px;
+            margin: 2px;
+            border: 1.8px solid red;
+            border-radius: 1.2px;
         }
     </style>
 
-<form>
+<!-- <form>
     <div class="require">
-<img src="./images/requirements.jpg" width="175px" height="99px">
+<img src="./images/requirements.jpg" width="170px" height="112px">
     </div>
-</form>
+</form> -->
 <div class="info">
-<h1>
-    When picking up your vehicle make sure that you have your <b>identity card</b> with you or <b>birth certificate</b>.
+<h1 style="color: red;">
+    When picking up your vehicle, make sure that you have your <b style="color:red;">identity card</b> with you or <b style="color: red;">birth certificate</b>.
 </h1>
-<h>
+<h class="name">
     <b>
         Car insurance
     </b>
     <p>Book with a reliable company and read the fine print in the terms and conditions. Check the vehicle is licenced for insurance purposes. Does the rental quotation include comprehensive insurance? It’s usually offered with an excess refunded to you if you have not used it.
     </p>
 </h>
+<h class="license">
+    <b style="color: grey;">
+    License
+    </b>
+    <p>A valid driver's license with a photo.</p> 
+    </h>
+
 </div>
 
 
