@@ -1,7 +1,7 @@
-const bodyParser = require('body-parser');
+// const bodyParser = require('body-parser');
 const express = require('express');
-const {default: knex} = require('knex');
-const {reset} = require('nodemon');
+// const {default: knex} = require('knex');
+// const {reset} = require('nodemon');
 const app = express()
 
 const PORT = process.env.PORT || 3001;
