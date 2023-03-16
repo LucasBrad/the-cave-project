@@ -35,14 +35,19 @@ body{
     /* height */
     position: absolute;
     min-width: 400px;
+    width: 100%;
+
     
 
 }
 .front>img{
     height: 60vh;
-    width: 95vh;
+    /* width: 95vh; */
     background-position: center;
     background-size: contain;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 .left{
     display: block;
