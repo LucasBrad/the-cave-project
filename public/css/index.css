@@ -39,8 +39,8 @@ body{
 
 }
 .front>img{
-    height: 50vh;
-    width: 75vh;
+    height: 60vh;
+    width: 95vh;
     background-position: center;
     background-size: contain;
 }
@@ -51,3 +51,4 @@ body{
     width: 75vh;
 
 }
+
