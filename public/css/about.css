@@ -1,4 +1,4 @@
-.flex_image_box{
+/* .flex_image_box{
     position: absolute;
     left: 50%;
     top: 85;
@@ -7,4 +7,15 @@
     width: 100%;
     justify-content: center;
     filter: drop-shadow(5px 5px 6px rgba(199, 199, 48, 0.5));
+} */
+/* .carousel-inner{ */
+    /* position: absolute;
+    width: 50%;
+    display: flex;
+    justify-content: center;
 }
+.d-block w-100{
+    width:100px;
+    display: flex;
+    justify-content: center;
+} */
