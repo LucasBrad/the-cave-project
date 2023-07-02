@@ -3,10 +3,10 @@
     left: 50%;
     top: 26%;
     transform: translate(-50%, 50%);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 1000;
     width: 100%;
-    color: rgb(20, 222, 101);
+    color: rgba(225, 180, 46, 0.818);
     font-size: 29px;
     text-align: center;
 }
